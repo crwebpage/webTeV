@@ -1,0 +1,179 @@
+@charset "utf-8";
+
+body {
+	font-family: "メイリオ",sans-serif;
+	/*
+	font-family: "メイリオ",serif;
+	*/
+	background-color: aliceblue;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* for debug display */
+/*
+div, p{
+	border: solid 1px black;
+}
+*/
+
+#mainbox {
+	margin-left: 50px;
+	margin-bottom: 1000px;
+	margin-top: 60px;
+	width: 80%;
+	padding: 50px 50px 200px 50px;
+	/*
+	background: white url("img/crtev.png") fixed no-repeat 90% top;
+	*/
+	background-color: white;
+}
+
+#topdispbox {
+	margin-left: 80px;
+}
+
+#wholetitle{
+	width: 90%;
+}
+#titlel{
+	float: left;
+	width: 78%;
+}
+#titler{
+	float: right;
+	width: 20%;
+}
+
+#title{
+	/*
+	border-bottom: solid 1px midnightblue;
+	width: 80%;
+	*/
+	border-left: solid 50px midnightblue;
+	padding-left: 30px;
+	font-size: 180%;
+}
+.subtitle{
+	/*
+	border-bottom: solid 1px midnightblue;
+	*/
+	border-left: solid 30px midnightblue;
+	padding-left: 20px;
+	width: 40%;
+}
+
+#menu{
+	width: 800px;
+}
+
+#topimg{
+	margin-top: 50px;
+	/*
+	width: 800px;
+	*/
+	width: 90%;
+}
+#topimg img{
+	/*
+	height: 300px;
+	*/
+}
+#topimgl{
+	width: 33%;
+	float: left;
+}
+#topimgr{
+	width: 66%;
+	float: right;
+}
+#topimgrl{
+	width: 49%;
+	float: left;
+}
+#topimgrr{
+	width: 49%;
+	float: right;
+}
+
+#physwhole{
+	width: 90%;
+}
+#phystxt{
+	float: left;
+	width: 58%;
+}
+#physimg{
+	font-size: 80%;
+	width: 40%;
+	float: right;
+}
+#phystxt p, #physimg p{
+	margin-right: 50px;
+}
+#physimg .pad{
+	margin-top: 50px;
+}
+
+#camwhole{
+	width: 90%;
+}
+#camtxt{
+	float: right;
+	width: 58%;
+}
+#camimg{
+	font-size: 80%;
+	width: 40%;
+	float: left;
+}
+#camtxt p, #camimg p{
+	margin-right: 50px;
+}
+#camtxt p, #phystxt p{
+	margin-top: 30px;
+}
+#camimg .pad{
+	margin-top: 50px;
+}
+
+#resfooter{
+	margin-top: 50px;
+}
+#memfooter{
+	margin-top: 50px;
+}
+#membertable{
+	border-spacing: 20px 0px;
+}
+
+#footer{
+	margin-top: 100px;
+	margin-left: 50px;
+}
+
+.clear {
+	clear: both;
+}
+
+.secbox {
+	margin-left: 20px;
+	margin-top: 100px;
+}
+.secbox h3 {
+	margin-left: 20px;
+	margin-top: 50px;
+}
+.secbox p, .secbox table, .secbox ul {
+	margin-left: 40px;
+	/*
+	margin-right: 200px;
+	*/
+}
+.setsumei {
+	font-size: 80%;
+	line-height: 180%;
+}
+
