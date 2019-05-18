@@ -143,15 +143,26 @@ img{
 .secbox {
     margin-top: 10px auto;
 }
-/*
-.secbox h3 {
-	margin-left: 20px;
-	margin-top: 50px;
+
+/*-- MEMBER --*/
+#membertable{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
 }
-.secbox p, .secbox table, .secbox ul {
-	margin-left: 40px;
+
+#membertable table{
+    margin: 10px auto;
+    border-spacing: 20px 0px;
+    text-align: center;
 }
-*/
+
+#memberimg{
+    width: 60%;
+     margin: 10px auto;
+    text-align: center;
+}
+
 
 /*-- RESEARCH --*/
 
@@ -170,23 +181,7 @@ img{
     float: right;
 }
 
-/*-- MEMBER --*/
-#membertable{
-    width: 90%;
-    margin: 10px auto;
-}
 
-#membertable table{
-    margin: 10px auto;
-    border-spacing: 20px 0px;
-    text-align: center;
-}
-
-#memberimg{
-    width: 60%;
-     margin: 10px auto;
-    text-align: center;
-}
 
 /*-- PUBLICATION --*/
 #presentation{
@@ -201,6 +196,9 @@ img{
 }
 #presentation table tr:nth-child(odd){
   background-color: #eee
+}
+#presentation p{
+    font-size: 70%
 }
 
 
@@ -217,7 +215,9 @@ img{
 #thesis table tr:nth-child(odd){
   background-color: #eee
 }
-
+#thesis p{
+    font-size: 70%
+}
 
 
 
